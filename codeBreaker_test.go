@@ -5,7 +5,7 @@ import "testing"
 
 func TestCodeBreaker_XXXX(t *testing.T){
 	setSecret("1234")
-	expected := "XXXX"
+	expected := "XXX"
 	actual:=validate("1234")
 	if expected != actual {
 		t.Errorf("Test failed, expected: '%s', got: '%s'",expected,actual)
